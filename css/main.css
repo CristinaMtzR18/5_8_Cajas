@@ -1,0 +1,31 @@
+/* Este div tiene las carcateristicas generales de los demas.
+   no se necesita poner la propiedad display porque ya esta la
+   tiene desde el principio por ser del tipo block */
+div{
+	height: 90px;
+	width: 90px;
+	border: red 3px dashed;
+}
+
+.noAmigo{
+	background-color: black;
+	border: blue 3px solid;
+}
+
+.amigo{
+	background-color: orange;
+	display: inline-block;
+}
+
+.amigos{
+	background-color: pink;
+	margin: 10px;
+	display: inline-block;
+}
+
+#fiesta{
+	height: 115px;
+	width: 360px;
+	background-color: purple;
+	margin: 5px 0px;
+}
